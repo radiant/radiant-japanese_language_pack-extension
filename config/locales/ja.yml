@@ -4,7 +4,7 @@ ja:
   activerecord:
     errors:
       messages:
-        blank:  必要' # required
+        blank:  '必要' # required
         invalid: 'フォーマットが異なります' #invalid_format
         not_a_number: '数値である必要があります' # must be number
         taken: '名前はすでに使用されています' # name_in_use
@@ -25,15 +25,15 @@ ja:
               confirmation: 'パスワードはパスワード確認と一致する必要があります' # password_confirmation
   add_child: 'Add Child'
   add_part: 'パーツ追加'
-  add_tab: 'タッブ追加'
+  add_tab: 'タブ追加'
   admin: '管理者'
   available_tags: '使用可能タグ'
   available_tags_for: '使用可能なタグ'
-  body: '文体'
+  body: '本文'
   breadcrumb: 'Breadcrumb'
   buttons:
     create: '{{name}}作成'
-    save_and_continue: 'セーブして続く'
+    save_and_continue: 'セーブして継続'
     save_changes: 'セーブ'
   cancel: '取り消す'
   change: 'Change'
@@ -55,22 +55,22 @@ ja:
   delete_layout: 'レイアウト削除'
   delete_pages: '{{pages}}削除'
   delete_snippet: 'スニペッツ削除'
-  delete_user: 'Delete User'
+  delete_user: 'ユーザー削除'
   description: 'Description'
-  design: 'Design'
-  designer: 'Designer'
+  design: 'デザイン'
+  designer: 'デザイナー'
   draft: '下書き'
   edit_layout: 'レイアウト編集'
   edit_page: 'ページ編集'
   edit_snippet: 'スニペッツ編集'
-  edit_user: 'Edit User'
-  email_address: 'E-mail Address'
+  edit_user: 'ユーザー編集'
+  email_address: 'メールアドレス'
   extension: 'エクステンション'
   extensions: 'エクステンション'
   filter: 'フィルター'
   hidden: '隠し'
-  hide: 'Hide' 
-  keywords: 'Keywords'
+  hide: '隠す' 
+  keywords: 'キーワード'
   language: '言語'
   layout: 'レイアウト'
   layouts: 'レイアウト'
@@ -80,17 +80,17 @@ ja:
   modify: '変更'
   more: '拡大'
   name: '名前'
-  new_layout: '新規レイアウト'
-  new_page: '新規ページ'
-  new_password: 'New Password'
-  new_snippet: '新規スニペッツ'
-  new_user: 'New User'  
+  new_layout: '新レイアウト'
+  new_page: '新ページ'
+  new_password: '新パスワード'
+  new_snippet: '新スニペッツ'
+  new_user: '新ユーザー'  
   no_pages: 'ページがない'
   notes: 'ノート'
   optional: 'オプション'
   or: 'それとも'
   page: 'ページ'
-  page_page: 'Page Part'
+  page_page: 'ページパーツ'
   page_title: 'タイトル'
   page_type: 'タイプ'
   pages: 'ページ'
@@ -101,8 +101,8 @@ ja:
   password: 'パスワード'
   password_confirmation: 'パスワードの確認を入力して下さい。'
   personal: 'Personal'
-  personal_preferences: 'Personal Preferences'
-  please_login: 'Please Login'
+  personal_preferences: 'プリファレンス'
+  please_login: 'ログインしてください'
   powered_by: 'Powered by'
   preferences: '設定'
   preferences_controller:
@@ -114,11 +114,11 @@ ja:
   reference: 'ヘルプ'
   remember_me: '次回から自動的にログイン'
   remove: 'Remove'
-  remove_layout: 'レイアウト除ける'
+  remove_layout: 'レイアウトを除く'
   remove_page: 'Remove Page'
-  remove_pages: '{{pages}}を除ける'
-  remove_tab: 'タッブ°除ける'
-  remove_user: 'Remove user'
+  remove_pages: '{{pages}}を除く'
+  remove_tab: 'タブを除く'
+  remove_user: 'ユーザーを除く'
   required: '必要'
   resource_controller:
     not_found: "{{humanized_model_name}} could not be found."
@@ -131,7 +131,7 @@ ja:
   saving_changes: Saving Changes
   saving_preferences: Saving preferences
   scheduled: "Scheduled"
-  search_tags: 'タッグ検索:'
+  search_tags: 'タグ検索:'
   select:
     inherit: '<inherit>'
     none: 'なし'
