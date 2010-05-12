@@ -1,6 +1,6 @@
 ---
 ja: 
-  account: 'Account'
+  account: 'アカウント'
   activerecord:
     errors:
       messages:
@@ -23,24 +23,24 @@ ja:
               taken: 'ログインはすでに使用されています' # login already in use
             password:
               confirmation: 'パスワードはパスワード確認と一致する必要があります' # password_confirmation
-  add_child: 'Add Child'
+  add_child: '子追加'
   add_part: 'パーツ追加'
   add_tab: 'タブ追加'
   admin: '管理者'
   available_tags: '使用可能タグ'
   available_tags_for: '使用可能なタグ'
   body: '本文'
-  breadcrumb: 'Breadcrumb'
+  breadcrumb: 'ブレッドクラム'
   buttons:
     create: '{{name}}作成'
     save_and_continue: 'セーブして継続'
     save_changes: 'セーブ'
   cancel: '取り消す'
-  change: 'Change'
+  change: '変更'
   close: '閉める'
-  content: 'Content'
+  content: 'コンテンツ'
   content_type: 'コンテンツ&#8209;タイプ'
-  creating_status: 'Creating {{model}}&#8230;'
+  creating_status: '作成中 {{model}}&#8230;'
   date:
     abbr_day_names: [日, 月, 火, 水, 木, 金, 土]
     abbr_month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
@@ -56,7 +56,7 @@ ja:
   delete_pages: '{{pages}}削除'
   delete_snippet: 'スニペッツ削除'
   delete_user: 'ユーザー削除'
-  description: 'Description'
+  description: '説明'
   design: 'デザイン'
   designer: 'デザイナー'
   draft: '下書き'
@@ -115,19 +115,19 @@ ja:
   remember_me: '次回から自動的にログイン'
   remove: 'Remove'
   remove_layout: 'レイアウトを除く'
-  remove_page: 'Remove Page'
+  remove_page: 'ページを除く'
   remove_pages: '{{pages}}を除く'
   remove_tab: 'タブを除く'
   remove_user: 'ユーザーを除く'
   required: '必要'
   resource_controller:
-    not_found: "{{humanized_model_name}} could not be found."
+    not_found: "{{humanized_model_name}} が見つかりませんでした。"
     removed: "{{humanized_model_name}}を削除しました。."
     saved: "{{humanized_model_name}}をセーブしました。"
     update_conflict: "ロードした時と比べて、{{humanized_model_name}}に変更があります。セーブしたら、ほかに変更を失う可能性があります。"
     validation_errors: "Validation errors occurred while processing this form. Please take a moment to review the form and correct any input errors before continuing."
   reviewed: '編集中'
-  roles: '役目'
+  roles: 'ロール'
   saving_changes: Saving Changes
   saving_preferences: Saving preferences
   scheduled: "Scheduled"
@@ -137,8 +137,8 @@ ja:
     none: 'なし'
     normal: '普通'
     default: '<default>'
-  settings: 'Settings'
-  slug: 'Slug'
+  settings: 'セッティング'
+  slug: 'スラッグ'
   snippet: 'スニペッツ'
   snippets: 'スニペッツ'
   status: 'ステータス'
@@ -152,7 +152,7 @@ ja:
     snippets:
       remove_warning: '本当に下記のスニペッツを<strong class="warning">永久に削除</strong>してよろしいでしょうか?'
     users: 
-      remove_warning: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following user?'
+      remove_warning: '本当に下記のユーザーを<strong class="warning">永久に削除</strong>してよろしいでしょうか?'
   this_file_language: "日本語"
   time:
     am: '午前'
