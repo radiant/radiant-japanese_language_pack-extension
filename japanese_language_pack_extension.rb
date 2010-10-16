@@ -1,9 +1,9 @@
 class JapaneseLanguagePackExtension < Radiant::Extension
-  version "1.0"
+  version "1.0.2"
   description "Provides Japanese translation for the Radiant admin interface"
-  url "http://yourwebsite.com/ja"
+  url "http://github.com/jirogit/radiant-japanese_language_pack-extension"
     
   def activate
-    
+    puts "=> Activated Custom Japanese Language Pack."
   end
 end
