@@ -1,3 +1,16 @@
 = I18n Ja
 
-Description goes here
+radiant-japanese_language_pack-extension インストール方法
+
+vendor/extensions/ ディレクトリへ
+
+git clone https://jirogit@github.com/jirogit/radiant-japanese_language_pack-extension.git japanese_language_pack
+
+でコピー。
+
+config／environment.rb　を書き換えます。
+
+  config.extensions = [ :japanese_language_pack, :all ]
+
+
+admin にログインし　setting personal タブへ行き　Language プルダウンを「日本語」にします。
