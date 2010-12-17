@@ -4,7 +4,7 @@ radiant-japanese_language_pack-extension インストール方法
 
 vendor/extensions/ ディレクトリへ
 
-git clone git://github.com/jirogit/radiant-japanese_language_pack-extension.git japanese_language_pack
+git clone git://github.com/radiant/radiant-japanese_language_pack-extension.git japanese_language_pack
 
 でコピー。
 
