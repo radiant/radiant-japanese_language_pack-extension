@@ -1,16 +1,42 @@
 = I18n Ja
 
-radiant-japanese_language_pack-extension インストール方法
+This is Japanese translation for the Radiant Admin interface.
 
-vendor/extensions/ ディレクトリへ
+--- Japanese ---
 
+radiant-japanese_language_pack-extensionは Radiant の
+Admin インターフェイスを日本語化するためのエクステンションです。
+
+Radiant 0.9.1 (gem)でテストされています。
+
+ インストール方法
+
+cd path/to/project
+cd vendor/extensions
 git clone git://github.com/radiant/radiant-japanese_language_pack-extension.git japanese_language_pack
-
-でコピー。
-
-config/environment.rb　を書き換えます。
+cd ../..
+vi config/environment.rb
 
   config.extensions = [ :japanese_language_pack, :all ]
 
+Radiant を再起動。
+admin にログインし　setting - personal タブへ行き　Language プルダウンを「日本語」にします。
 
-admin にログインし　setting personal タブへ行き　Language プルダウンを「日本語」にします。
+--- English ---
+
+Tested only Radiant 0.9.1 (gem)
+
+Ho to install radiant-japanese_language_pack-extension.
+
+cd path/to/project
+cd vendor/extensions
+git clone git://github.com/radiant/radiant-japanese_language_pack-extension.git japanese_language_pack
+cd ../..
+vi config/environment.rb
+
+  config.extensions = [ :japanese_language_pack, :all ]
+
+Restart Radiant.
+Login the Radiant administrative interface.
+click the setting link at the top of the screen then click personal
+Choose Language 日本語 Japanese.
