@@ -106,7 +106,7 @@ ja:
   powered_by: 'Powered by'
   preferences: '設定'
   preferences_controller:
-    error_updating: '設定変更にエーラーが発生しました。'
+    error_updating: '設定変更にエラーが発生しました。'
     updated: '設定変更に終了しました。'
   published: '出版'
   published_at: '発行日：'
