@@ -14,16 +14,16 @@ ja:
         page:
           attributes:
             slug:
-              taken: 'スラグははすでに親の子として使用されています' # slug_in_use
+              taken: 'slugははすでに親の子として使用されています' # slug_in_use
         user:
           attributes:
             email:
               invalid: 'Eメールが不正です' # invalid_email
             login:
-              taken: 'ログインはすでに使用されています' # login already in use
+              taken: 'このアカウント名はすでに使用されています' # login already in use
             password:
               confirmation: 'パスワードはパスワード確認と一致する必要があります' # password_confirmation
-  add_child: '子追加'
+  add_child: '子を追加'
   add_part: 'パーツ追加'
   add_tab: 'タブ追加'
   admin: '管理者'
@@ -32,12 +32,32 @@ ja:
   body: '本文'
   breadcrumb: 'ブレッドクラム'
   buttons:
-    create: '{{name}}作成'
-    save_and_continue: 'セーブして継続'
-    save_changes: 'セーブ'
-  cancel: '取り消す'
+    create: '保存'
+    save_and_continue: '保存して続ける'
+    save_changes: '保存'
+  cancel: 'キャンセル'
   change: '変更'
   close: '閉める'
+  config:
+    defaults:
+      locale: '言語'
+      page:
+        fields: 'フィールド'
+        filter: 'フィルター'
+        status: '状態'
+        parts: 'パーツ'
+      snippet:
+        filter: 'スニペットフィルター' 
+    dev:
+      host: '製品公開アドレス'
+    local:
+      timezone: 'タイムゾーン'
+    site:
+      domain: 'アドレス'
+      name: 'サイト名'
+      host: 'アドレス'
+    user:
+      allow_password_reset?: 'パスワードをリセットする'
   content: 'コンテンツ'
   content_type: 'コンテンツ&#8209;タイプ'
   creating_status: '作成中 {{model}}&#8230;'
@@ -52,22 +72,26 @@ ja:
       short: "%e %b"
     month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
     order: [ :year, :month, :day ]
-  delete_layout: 'レイアウト削除'
-  delete_pages: '{{pages}}削除'
-  delete_snippet: 'スニペッツ削除'
-  delete_user: 'ユーザー削除'
+  delete_layout: '削除'
+  delete_pages: '削除'
+  delete_snippet: '削除'
+  delete_user: '削除'
   description: '説明'
   design: 'デザイン'
   designer: 'デザイナー'
   draft: '下書き'
+  edit_configuration: '編集'
   edit_layout: 'レイアウト編集'
   edit_page: 'ページ編集'
-  edit_snippet: 'スニペッツ編集'
+  edit_preferences: '編集'
+  edit_snippet: 'スニペット編集'
   edit_user: 'ユーザー編集'
+  edit_stylesheet: 'スタイルシート編集'
   email_address: 'メールアドレス'
   extension: 'エクステンション'
   extensions: 'エクステンション'
   filter: 'フィルター'
+  general: '全般'
   hidden: '隠し'
   hide: '隠す' 
   keywords: 'キーワード'
@@ -76,19 +100,22 @@ ja:
   layouts: 'レイアウト'
   log_out: 'ログアウト'
   logged_in_as: 'ログイン名'
-  login: 'ログイン'
+  login: 'アカウント名'
   modify: '変更'
   more: '拡大'
+  more_info: '詳細'
   name: '名前'
-  new_layout: '新レイアウト'
-  new_page: '新ページ'
+  new_javascript: 'Javascriptを追加'
+  new_layout: 'レイアウトを追加'
+  new_page: 'ページを追加'
   new_password: '新パスワード'
-  new_snippet: '新スニペッツ'
-  new_user: '新ユーザー'  
+  new_snippet: 'スニペットを追加'
+  new_stylesheet: 'スタイルシートを追加'
+  new_user: 'ユーザ追加'  
   no_pages: 'ページがない'
   notes: 'ノート'
   optional: 'オプション'
-  or: 'それとも'
+  or: 'または'
   page: 'ページ'
   page_page: 'ページパーツ'
   page_title: 'タイトル'
@@ -97,37 +124,38 @@ ja:
   pages_controller:
     removed_many: "ページはサイトから削除しました。"
     removed_one: "ページはサイトから削除しました。"
-    saved: "ページをセーブしました。"
+    saved: "ページを保存しました。"
   password: 'パスワード'
-  password_confirmation: 'パスワードの確認を入力して下さい。'
-  personal: '個人情報'
-  personal_preferences: 'プリファレンス'
+  password_confirmation: 'もう一度入力して下さい。'
+  personal: 'アカウント'
+  personal_preferences: 'アカウント'
   please_login: 'ログインしてください'
   powered_by: 'Powered by'
   preferences: '設定'
   preferences_controller:
     error_updating: '設定変更にエラーが発生しました。'
     updated: '設定変更に終了しました。'
-  published: '出版'
+  published: '公開'
   published_at: '発行日：'
   published_on: '発行日：'
   reference: 'ヘルプ'
   remember_me: '次回から自動的にログイン'
   remove: '削除'
-  remove_layout: 'レイアウトを除く'
-  remove_page: 'ページを除く'
-  remove_pages: '{{pages}}を除く'
-  remove_tab: 'タブを除く'
-  remove_user: 'ユーザーを除く'
+  remove_layout: 'レイアウトを削除'
+  remove_page: 'ページを削除'
+  remove_pages: '{{pages}}を削除'
+  remove_snippet: 'スニペットを削除'
+  remove_tab: 'タブを削除'
+  remove_user: 'ユーザーを削除'
   required: '必要'
   resource_controller:
     not_found: "{{humanized_model_name}} が見つかりませんでした。"
     removed: "{{humanized_model_name}}を削除しました。."
-    saved: "{{humanized_model_name}}をセーブしました。"
-    update_conflict: "ロードした時と比べて、{{humanized_model_name}}に変更があります。セーブしたら、ほかに変更を失う可能性があります。"
+    saved: "{{humanized_model_name}}を保存しました。"
+    update_conflict: "読み込み時と比べて、{{humanized_model_name}}に変更があります。このまま保存すると、変更を失う可能性があります。"
     validation_errors: "Validation errors occurred while processing this form. Please take a moment to review the form and correct any input errors before continuing."
   reviewed: '編集中'
-  roles: 'ロール'
+  roles: '役割'
   saving_changes: Saving Changes
   saving_preferences: Saving preferences
   scheduled: "Scheduled"
@@ -137,22 +165,24 @@ ja:
     none: 'なし'
     normal: '普通'
     default: '<default>'
-  settings: 'セッティング'
+  settings: '設定'
   slug: 'スラッグ'
-  snippet: 'スニペッツ'
-  snippets: 'スニペッツ'
+  snippet: 'スニペット'
+  snippets: 'スニペット'
   status: 'ステータス'
     # Warnings and info text:
+  stylesheets: 'スタイルシート'
+  stylesheet: 'スタイルシート'
   testing: Testing
   text:
     layouts:
-      remove_warning: '本当に下記のレイアウトを<strong class="warning">永久に削除</strong>してよろしいでしょうか?'   
+      remove_warning: '本当に下記のレイアウトを<strong class="warning">削除</strong>してよろしいでしょうか?<strong class="warning">(元に戻せません！)</strong>'   
     pages: 
-      remove_warning: '本当に下記の{{pages}}を<strong class="warning">永久に削除</strong>してよろしいでしょうか?'
+      remove_warning: '本当に下記の{{pages}}を<strong class="warning">削除</strong>してよろしいでしょうか?<strong class="warning">(元に戻せません！)</strong>'
     snippets:
-      remove_warning: '本当に下記のスニペッツを<strong class="warning">永久に削除</strong>してよろしいでしょうか?'
+      remove_warning: '本当に下記のスニペットを<strong class="warning">削除</strong>してよろしいでしょうか?<strong class="warning">(元に戻せません！)</strong>'
     users: 
-      remove_warning: '本当に下記のユーザーを<strong class="warning">永久に削除</strong>してよろしいでしょうか?'
+      remove_warning: '本当に下記のユーザーを<strong class="warning">削除</strong>してよろしいでしょうか?<strong class="warning">(元に戻せません！)</strong>'
   this_file_language: "日本語"
   time:
     am: '午前'
@@ -172,13 +202,14 @@ ja:
     by: '変更者：'
     last_updated: '最終更新日'
   user: 'ユーザー'
-  username: 'ログイン'
+  username: 'アカウント名'
   users: 'ユーザー'
   users_controller:
-    cannot_delete_self: '自分を削除できません。'
+    cannot_delete_self: '自分は削除できません。'
+  upload: 'アップロード'
   version: 'バージョン'
   view_site: 'サイトを見る'
   website: 'ウェブサイト'
   welcome_controller:
-    invalid_user: 'ログインもしくはパスワードが異なります。'
+    invalid_user: 'アカウント名もしくはパスワードが異なります。'
     logged_out: 'ログアウトしました。'
