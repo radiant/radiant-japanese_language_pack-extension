@@ -44,22 +44,22 @@ ja:
       page:
         fields: 'フィールド'
         filter: 'フィルター'
-        status: '状態'
+        status: 'ステータス'
         parts: 'パーツ'
       snippet:
         filter: 'スニペットフィルター' 
     dev:
-      host: '製品公開アドレス'
+      host: '開発サイトドメイン'
     local:
       timezone: 'タイムゾーン'
     site:
-      domain: 'アドレス'
+      domain: 'サイトドメイン'
       name: 'サイト名'
       host: 'アドレス'
     user:
       allow_password_reset?: 'パスワードをリセットする'
   content: 'コンテンツ'
-  content_type: 'コンテンツ&#8209;タイプ'
+  content_type: 'Content-Type'
   creating_status: '作成中 {{model}}&#8230;'
   date:
     abbr_day_names: [日, 月, 火, 水, 木, 金, 土]
@@ -155,7 +155,7 @@ ja:
     update_conflict: "読み込み時と比べて、{{humanized_model_name}}に変更があります。このまま保存すると、変更を失う可能性があります。"
     validation_errors: "Validation errors occurred while processing this form. Please take a moment to review the form and correct any input errors before continuing."
   reviewed: '編集中'
-  roles: '役割'
+  roles: 'ロール'
   saving_changes: Saving Changes
   saving_preferences: Saving preferences
   scheduled: "Scheduled"
