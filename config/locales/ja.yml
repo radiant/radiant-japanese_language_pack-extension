@@ -63,14 +63,14 @@ ja:
   creating_status: '作成中 {{model}}&#8230;'
   date:
     abbr_day_names: [日, 月, 火, 水, 木, 金, 土]
-    abbr_month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
+    abbr_month_names: [~, 1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
     day_names: [日曜, 月曜, 火曜, 水曜, 木曜, 金曜, 土曜]
     formats:
       default: "%Y年%m月%d日"
       long: "%B %e, %Y"
       only_day: "%e"
       short: "%e %b"
-    month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
+    month_names: [~, 1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
     order: [ :year, :month, :day ]
   delete_layout: '削除'
   delete_pages: '削除'
