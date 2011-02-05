@@ -14,7 +14,7 @@ ja:
         page:
           attributes:
             slug:
-              taken: 'slugははすでに親の子として使用されています' # slug_in_use
+              taken: 'スラッグはすでに親の子として使用されています' # slug_in_use
         user:
           attributes:
             email:
