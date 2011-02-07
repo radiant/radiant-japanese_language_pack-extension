@@ -26,7 +26,7 @@ admin にログインし　setting - personal タブへ行き　Language プル�
 
 Tested only Radiant 0.9.1 (gem)
 
-Ho to install radiant-japanese_language_pack-extension.
+How to install radiant-japanese_language_pack-extension.
 
 cd path/to/project
 cd vendor/extensions
