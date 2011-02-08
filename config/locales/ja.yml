@@ -1,5 +1,5 @@
 ---
-ja: 
+ja:
   account: 'アカウント'
   activerecord:
     errors:
@@ -81,6 +81,7 @@ ja:
   designer: 'デザイナー'
   draft: '下書き'
   edit_configuration: '編集'
+  edit_javascript: 'JavaScript編集'
   edit_layout: 'レイアウト編集'
   edit_page: 'ページ編集'
   edit_preferences: '編集'
@@ -92,7 +93,7 @@ ja:
   extensions: 'エクステンション'
   filter: 'フィルター'
   general: '全般'
-  hidden: '隠し'
+  hidden: '表示しない'
   hide: '隠す' 
   keywords: 'キーワード'
   language: '言語'
@@ -112,6 +113,7 @@ ja:
   new_snippet: 'スニペットを追加'
   new_stylesheet: 'スタイルシートを追加'
   new_user: 'ユーザ追加'  
+  'no': 'いいえ'
   no_pages: 'ページがない'
   notes: 'ノート'
   optional: 'オプション'
@@ -125,6 +127,7 @@ ja:
     removed_many: "ページはサイトから削除しました。"
     removed_one: "ページはサイトから削除しました。"
     saved: "ページを保存しました。"
+  path: 'パス'
   password: 'パスワード'
   password_confirmation: 'もう一度入力して下さい。'
   personal: 'アカウント'
@@ -154,7 +157,7 @@ ja:
     saved: "{{humanized_model_name}}を保存しました。"
     update_conflict: "読み込み時と比べて、{{humanized_model_name}}に変更があります。このまま保存すると、変更を失う可能性があります。"
     validation_errors: "Validation errors occurred while processing this form. Please take a moment to review the form and correct any input errors before continuing."
-  reviewed: '編集中'
+  reviewed: 'レビュー'
   roles: 'ロール'
   saving_changes: Saving Changes
   saving_preferences: Saving preferences
@@ -213,3 +216,4 @@ ja:
   welcome_controller:
     invalid_user: 'アカウント名もしくはパスワードが異なります。'
     logged_out: 'ログアウトしました。'
+  'yes': 'はい'
