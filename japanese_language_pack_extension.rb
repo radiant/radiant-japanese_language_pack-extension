@@ -4,6 +4,5 @@ class JapaneseLanguagePackExtension < Radiant::Extension
   url "http://github.com/radiant/radiant-japanese_language_pack-extension"
     
   def activate
-    puts "=> Activated Custom Japanese Language Pack."
   end
 end
